@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="index" frontName="index">
+            <module name="Magento_Pipwave" />
+        </route>
+        <route id="notification" frontName="notification">
+            <module name="Magento_Pipwave" />
+        </route>
+        <route id="fail" frontName="fail">
+            <module name="Magento_Pipwave" />
+        </route>
+        <route id="success" frontName="success">
+            <module name="Magento_Pipwave" />
+        </route>
+    </router>
+</config>
